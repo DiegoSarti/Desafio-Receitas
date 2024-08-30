@@ -2,34 +2,39 @@
     padding: 0;
     margin: 0;
 }
-
-.cabecalho{
-    padding: 10% 0 0 14%;
-    background-color: rgb(255, 221, 157);
-}
-.cabecalho__menu{
-    display: flex;
-    gap: 85px;
-    height: 100px;
-}
-.cabecalho__menu__link{
-    font-size: 1.5rem;
-    font-weight: 200;
-    text-decoration: none;
-    display: flex;
+body {
+    background-color: #f0f0f0;
+    font-family: "Lato", sans-serif;
 }
 
-
-.body {
-    box-sizing: border-box;
-    background-color:bisque
+.header {
+    background-color: orange;
+    height:  70px;
 }
 
-.apresentacao{
-    padding: 5% 15%;
-    display: flex;
-    align-items: flex-start;
-    justify-content: space-around;
-    gap: 82px;
-    flex-wrap: wrap;
+.banner {
+    background-image: url(/img/macarrao.jpg);
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+}
+.card {
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    border-radius: 5px;
+    font-weight: 300;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    font-size: 20px;
+    font-weight: 400p;
+}
+li {
+    list-style-position: inside;
+    line-height: 35px;
 }
