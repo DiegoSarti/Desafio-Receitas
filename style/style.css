@@ -18,12 +18,20 @@ body {
     background-position: center;
     background-size: cover;
 }
+.footer{
+    background-color: orange;
+    height: 50px;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+
+}
 .card {
     width: 500px;
     margin: auto;
-    padding: 20px;
+    padding: 50px;
     background-color: rgb(255, 255, 255);
-    margin-top: 50px;
+    margin: 50px auto;
     border-radius: 5px;
     font-weight: 300;
 }
@@ -33,8 +41,39 @@ h1 {
     color: orange;
     font-size: 20px;
     font-weight: 400p;
+    margin-bottom: 30px;
 }
 li {
     list-style-position: inside;
     line-height: 35px;
+}
+ul {
+    margin-bottom: 40px;
+}
+.botao {
+    text-decoration: none;
+    background-color: orange;
+    color: white;
+    padding: 15px;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 30px;
+
+}
+
+.botao:hover {
+    background-color: rgb(252, 180, 48);
+}
+
+.titulo-receita {
+    font-weight: 700;
+    font-size: 25px;
+    margin-top: 30px;
+
+}
+.link-footer {
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+
 }
